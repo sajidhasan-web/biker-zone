@@ -24,6 +24,7 @@
           colors: {
             clifford: '#da373d',
             'bike-primary': '#E76F51',
+            'border': '#DEDEDE',
             'bike-primary-bg': 'rgba(231, 111, 81, 0.10)',
           }
         }
@@ -39,7 +40,7 @@
 </style>
 </head>
 <body class="font-poppins">
-    <header class="md:container md:mx-auto px-28">
+    <header class="md:container md:mx-auto px-5 md:px-28">
         <nav>
             <div class="navbar bg-base-100">
                 <div class="flex-1">
@@ -74,7 +75,7 @@
             <!-- slide 1 -->
             <div id="slide1" class="carousel-item relative w-full">
               <div class="flex flex-col lg:flex-row p-4 lg:p-24 lg:gap-20">
-                <div class="space-y-7 flex-1">
+                <div class="space-y-2 md:space-y-7 flex-1">
                         <h1 class="text-2xl lg:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
                         <p>Amet minim mollit non deserunt ullamco 
                             est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
@@ -149,7 +150,7 @@
         <section class="mt-10 lg:mt-[150px] text-center">
             <h2 class="text-2xl lg:text-5xl font-bold">Fetured Bikes In This Year</h2>
             <p class="text-sm font-semibold text-red-700">Best bike collection</p>
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-x-10 ">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-x-10 ml-5">
                 <div class="lg:p-10" ><img class="p-8" src="./images/others/feature-bike.png" alt=""></div>
                 <div class="lg:p-10" ><img class="p-8" src="./images/others/feature-bike.png" alt=""></div>
                 <div class="lg:p-10" ><img class="p-8" src="./images/others/feature-bike.png" alt=""></div>
@@ -158,10 +159,10 @@
         <!-- latest section -->
           <section class="mt-24">
             <h2 class="text-2xl lg:text-5xl font-bold text-center mb-24">Latest News</h2>
-            <div class="grid grid-cols-1 gap-5 md:gap-52 md:grid-cols-3 mt-10">
+            <div class="grid grid-cols-1 gap-5 md:gap-40 md:grid-cols-3 mt-10">
               <!-- card 1 -->
-              <div class="card card-compact w-96 bg-base-100 shadow-xl space-y-5">
-                <figure><img src="./images/others/latest1.png" alt="Shoes" /></figure>
+              <div class="card card-compact w-96 bg-base-100 shadow-xl space-y-5 border">
+                <figure><img class="mt-5" src="./images/others/latest1.png" alt="Shoes" /></figure>
                 <div class="card-body ">
                   <h2 class="card-title">Ducati XDIAVEL S-73</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
@@ -171,8 +172,8 @@
                 </div>
               </div>
               <!-- card 2 -->
-              <div class="card card-compact w-96 bg-base-100 shadow-xl space-y-5">
-                <figure><img src="./images/others/latest2.png" alt="Shoes" /></figure>
+              <div class="card card-compact w-96 bg-base-100 shadow-xl space-y-5 border">
+                <figure><img class="mt-5" src="./images/others/latest2.png" alt="Shoes" /></figure>
                 <div class="card-body ">
                   <h2 class="card-title">Ducati XDIAVEL S-73</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
@@ -182,8 +183,8 @@
                 </div>
               </div>
               <!-- card 3 -->
-              <div class="card card-compact w-96 bg-base-100 shadow-xl space-y-5">
-                <figure><img src="./images/others/latest3.png" alt="Shoes" /></figure>
+              <div class="card card-compact w-96 bg-base-100 shadow-xl space-y-5 border">
+                <figure><img class="mt-5" src="./images/others/latest3.png" alt="Shoes" /></figure>
                 <div class="card-body ">
                   <h2 class="card-title">Ducati XDIAVEL S-73</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
@@ -196,11 +197,11 @@
           </section>
 
           <!-- happy client section -->
-          <section class="mt-24">
+          <section class="mt-24 px-5 md:px-28">
             <h2 class="text-2xl lg:text-5xl font-bold text-center mb-12">Happy <span class="text-bike-primary">Clients says</span></h2>
             <div class="grid grid-cols-1 gap-5 md:gap-52 md:grid-cols-3 mt-10">
               <!-- card1 -->
-              <div class="card w-80 bg-base-100 shadow-xl border-[#DEDEDE] p-10 space-y-6 mx-auto">
+              <div class="card w-80 bg-base-100 shadow-xl  p-10 space-y-6 mx-auto border">
                 <div class="w-[50%] mx-auto"><img src="./images/others/user-1.png" alt=""></div>
                 <div class=" items-center text-center space-y-6">
                   
@@ -220,7 +221,7 @@
                 </div>
               </div>
               <!-- card2 -->
-              <div class="card w-80 bg-base-100 shadow-xl border-[#DEDEDE] p-10 space-y-6 mx-auto">
+              <div class="card w-80 bg-base-100 shadow-xl border-[#DEDEDE] p-10 space-y-6 mx-auto border">
                 <div class="w-[50%] mx-auto"><img src="./images/others/user-2.png" alt=""></div>
                 <div class=" items-center text-center space-y-6">
                   
@@ -240,7 +241,7 @@
                 </div>
               </div>
               <!-- card3 -->
-              <div class="card w-80 bg-base-100 shadow-xl border-[#DEDEDE] p-10 space-y-6 mx-auto">
+              <div class="card w-80 bg-base-100 shadow-xl border-[#DEDEDE] p-10 space-y-6 mx-auto border">
                 <div class="w-[50%] mx-auto"><img src="./images/others/user-3.png" alt=""></div>
                 <div class=" items-center text-center space-y-6">
                   
@@ -261,10 +262,75 @@
               </div>
             </div>
           </section>
-          
+
+          <section class="mt-24  px-5 md:px-28">
+            <h2 class="text-2xl lg:text-5xl font-bold text-center mb-12">Frequently Asked <span class="text-bike-primary">Questions</span></h2>
+            <div class=" md:flex justify-center items-center md:gap-24">
+              <div class="mb-8"><img src="./images/others/faq.png" alt="faq-img"></div>
+              <div class="space-y-2 md:space-y-7">
+                <div class="collapse collapse-arrow border">
+                  <input type="radio" name="my-accordion-2" checked="checked" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Click to open this one and close others
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>hello</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-arrow border">
+                  <input type="radio" name="my-accordion-2" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Click to open this one and close others
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>hello</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-arrow border">
+                  <input type="radio" name="my-accordion-2" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Click to open this one and close others
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>hello</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-arrow border">
+                  <input type="radio" name="my-accordion-2" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Click to open this one and close others
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>hello</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
     </main>
-    <footer>
-        
+    <footer class="bg-[#0B0D17] h-50 px-28 py-12">
+        <div class="md:container md:mx-auto space-y-5 md:flex justify-between items-center">
+          <div class="space-y-5  text-white">
+            <div class="flex gap-5">
+              <a href="#">Download Now</a>
+               <a href="#">License</a>
+            </div>
+            <div class="flex gap-5 flex-wrap">
+              <a href="#">About</a>
+              <a href="#">Features</a>
+              <a href="#">Pricing</a>
+              <a href="#">Careers</a>
+              <a href="#">Help</a>
+              <a href="#">Privacy Policy</a>
+            </div>
+             <p>© 2020 bike. All rights reserved</p>
+          </div>
+          <div class="space-y-5">
+              <img src="./images/others/android.png" alt="android">
+              <img src="./images/others/ios.png" alt="ios">
+          </div>
+          
+        </div>
     </footer>
 </body>
 
